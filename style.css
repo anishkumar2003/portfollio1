@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+header {
+    font-size: 20px;
+    color: white;
+    background: black;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.left {
+    display: inline-block;
+}
+
+.name {
+    position: relative;
+    left: 50px;
+}
+
+.mid {
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 20%;
+}
+
+.right {
+    display: inline-block;
+    position: relative;
+    left: 28%;
+}
+
+ul li a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 5px;
+}
+
+ul li a:hover {
+    font-size: 22px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 30px;
+    /* color: black;
+    background: white;
+    border: 2px solid white; */
+}
+
+.navbar {
+    display: inline;
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    background: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin-left: 5px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+}
+
+.btn a:hover {
+    background: white;
+    color: black;
+}
+
+
+
+/* main part  */
+.profile {
+    display: inline-block;
+    margin: 70px 0px 0px 200px;
+}
+
+.dp {
+    height: 182px;
+    position: absolute;
+    top: 310px;
+    left: 382px;
+    display: inline-block;
+
+}
+
+.bio {
+    display: inline-block;
+    width: 650px;
+    position: relative;
+    top: -80px;
+    margin-left: 30px;
+    text-align: center;
+    border: 5px solid green;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #659DBD;
+}
+
+.frame {
+    height: 500px;
+    display: inline-block;
+}
+
+.bio p {
+    font-size: 30px;
+    padding: 5px;
+}
+
+
+/* footer */
+footer {
+    background: black;
+    border-radius: 30px;
+    color: white;
+}
+
+footer img {
+    width: 30px;
+    margin: 10px;
+    background: white;
+    border-radius: 30px;
+}
+
+.social {
+    margin-left: 600px;
+    display: inline-block;
+}
+
+.email {
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: -15px;
+}
